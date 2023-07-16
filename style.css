@@ -134,7 +134,7 @@ footer a {
 }
 
 footer a:hover {
-    color: hsl(4, 100%, 67%);
+    color: hsl(220, 15%, 55%);
 }
 
 @media (min-width: 500px) {
