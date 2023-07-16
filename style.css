@@ -9,6 +9,8 @@
 body {
     width: 100vw;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 main {
@@ -119,6 +121,22 @@ main img {
     background: linear-gradient(to right, #c7415b, hsl(4, 100%, 67%));
 }
 
+footer {
+    display: none;
+    text-align: center;
+    margin: 20px 50px;
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color: hsl(4, 100%, 67%);
+}
+
 @media (min-width: 500px) {
     body {
         display: flex;
@@ -175,11 +193,15 @@ main img {
         justify-content: flex-end;
     }
 
-    #myForm div{
+    #myForm div {
         margin-bottom: 1rem;
     }
 
     #email {
         margin-bottom: 1rem;
+    }
+
+    footer {
+        display: inline;
     }
 }

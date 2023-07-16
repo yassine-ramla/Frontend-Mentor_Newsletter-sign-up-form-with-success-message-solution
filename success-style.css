@@ -9,6 +9,8 @@
 body {
     width: 100vw;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 main {
@@ -59,6 +61,23 @@ main button:active {
     background: linear-gradient(to right, #c7415b, hsl(4, 100%, 67%));
 }
 
+footer {
+    display: none;
+    max-width: 300px;
+    text-align: center;
+    margin: 20px 50px;
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color: hsl(220, 15%, 55%);
+}
+
 @media (min-width: 450px) {
     body {
         display: flex;
@@ -103,5 +122,9 @@ main button:active {
         height: fit-content;
         ;
         grid-row-start: 4;
+    }
+
+    footer {
+        display: inline;
     }
 }
