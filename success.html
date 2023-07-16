@@ -19,7 +19,7 @@
     </title>
   </head>
   <body>
-    <div class="container">
+    <main>
       <img src="./images/icon-success.svg" alt="success icon" />
 
       <h1>Thanks for subscribing!</h1>
@@ -28,8 +28,8 @@
         <span id="email">email@company.com</span>. Please open it and click the
         button inside to confirm your subscription.
       </p>
-      <button>Dismiss message</button>
-    </div>
+      <button onclick="location.assign('./index.html')">Dismiss message</button>
+    </main>
     <script>
       const urlParams = new URLSearchParams(window.location.search);
       const email = urlParams.get("email");

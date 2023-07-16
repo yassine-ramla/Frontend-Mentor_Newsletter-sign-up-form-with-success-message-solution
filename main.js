@@ -19,5 +19,10 @@ form.addEventListener("submit", function (event) {
     emailInput.style.border = "1px solid hsl(4, 100%, 67%)";
     emailInput.style.color = "red";
     errorMsg.style.display = "inline";
+  } else {
+    emailInput.style.backgroundColor = "transparent";
+    emailInput.style.border = "1px solid hsl(231, 7%, 60%)";
+    emailInput.style.color = "gray";
+    errorMsg.style.display = "none";
   }
 });

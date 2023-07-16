@@ -44,6 +44,7 @@ Users should be able to:
 
 ### Built with
 
+- semantic HTML elements
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
